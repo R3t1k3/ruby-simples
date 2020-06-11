@@ -1,0 +1,20 @@
+{
+  "install": "bundle install",
+  "start": "bundle exec ruby app.rb",
+  "watch": {
+    "install": {
+      "include": [
+        "^Gemfile$"
+      ]
+    },
+    "restart": {
+      "include": [
+        "\\.rb$"
+      ]
+    }
+  }
+}
+
+
+
+\*Tem haver com o site Glitch tambem.*/
